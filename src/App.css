@@ -1,0 +1,35 @@
+* {
+  font-family: sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.App {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #00163b;
+  border-radius: 12px;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+}
+button {
+  border: 1px solid #16d0c5;
+  background: #16d0c5;
+  color: #00163b;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: #fff;
+  color: #00163b;
+}
